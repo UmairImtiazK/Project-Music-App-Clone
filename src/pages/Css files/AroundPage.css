@@ -1,0 +1,23 @@
+.AroundPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.AroundPage h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    text-align: left;
+}
+
+.AroundPage h2 span {
+    font-weight: 700;
+}
+
+.arounditems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-items: center;
+    gap: 8px;
+}

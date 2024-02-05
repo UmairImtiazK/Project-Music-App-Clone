@@ -1,0 +1,43 @@
+.detailsHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.imgCont {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    inset: 0;
+}
+
+.imgCont .img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1), 0 6px 10px -2px rgba(0, 0, 0, 0.05);
+}
+
+.songTitle {
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.songSubTitle {
+    font-weight: 400;
+    color: gray;
+    font-size: larger;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .emptyCont {
+        height: 48px;
+    }
+}

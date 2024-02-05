@@ -1,0 +1,28 @@
+.form  {
+    color: gray;
+    font-weight: 400;
+    padding: 25px;
+    width: 400px;
+}
+
+.searchCont {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.searchCont input {
+    border: none;
+    outline: 0;
+    background: transparent;
+    color: white;
+    place-content: gray;
+}
+
+@media screen and (max-width: 700px) {
+    .form:focus {
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,58 @@
+.songCard {
+  width: 250px;
+  padding: 10px;
+  background-color: #1212864f;
+  border-radius: 15px;
+}
+
+.songCardParent {
+  position: relative;
+  width: 100%;
+  height: 14.4rem;
+}
+
+.songCardParent:hover .playBtn{
+  display: flex;
+  position: absolute;
+  inset: 0;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 50;
+}
+
+.activeClass {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 70;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group {
+  position: relative;
+}
+
+.songInfo {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.hiddenClass {
+  display: none;
+}

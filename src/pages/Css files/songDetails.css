@@ -1,0 +1,19 @@
+.songDetails {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 2rem;
+}
+
+.songDetails h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.songDetails p {
+    font-size: .8rem;
+    opacity: .5;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+}
